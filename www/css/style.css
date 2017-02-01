@@ -1,0 +1,112 @@
+/* Empty. Add your own CSS if you like */
+#ppp {
+    background-image: url("/img/Ex_mobile-18.jpg");
+    background-size: cover;
+}
+
+
+/*Login*/
+.img1 {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+  opacity: 0.9;
+  filter: alpha(opacity=60);  /*For IE8 and earlier*/
+}
+.label{
+  margin: 15px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=60);   /*For IE8 and earlier */
+}
+
+.button1 {
+      background-color: #387ef5;
+      color: white;
+      width: 97%;
+      margin: auto;
+      margin-bottom: 10px;
+      display: block;
+      opacity: 0.8;
+      filter: alpha(opacity=60);  /*For IE8 and earlier*/
+    }
+
+.button2 {
+  background-color: #ffffff;
+  color: black;
+  width: 97%;
+  margin: auto;
+  margin-bottom: 10px;
+  display: block;
+  opacity: 0.8;
+  filter: alpha(opacity=60);  /*For IE8 and earlier*/
+}
+
+/*Signup*/
+.button3 {
+  background-color: #ffffff;
+  color: black;
+  width: 97%;
+  margin: auto;
+  margin-bottom: 10px;
+  display: block;
+  opacity: 0.8;
+  filter: alpha(opacity=60);  /*For IE8 and earlier*/
+}
+
+
+/*manu , UI ส่วนของหน้า Teacher ใช้ CSS เดียวกันกับ CSS ของหน้า manu */
+.buttonmanu{
+  background-color: #387ef5;
+  color: white;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5px;
+  display: block;
+  opacity: 0.8;
+  filter: alpha(opacity=60);  /*For IE8 and earlier*/
+}
+#B2 {
+  margin-top: 70%;
+}
+
+/* subject&activities*/
+.buttonSj-At {
+  background-color: #387ef5;
+  color: white;
+  width: 90%;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  opacity: 0.8;
+  filter: alpha(opacity=60);  /*For IE8 and earlier*/
+}
+#B1 {
+  /*margin-top: 20px;*/
+  margin: 20px  px 5px;
+}
+
+/*#B3 {
+  margin-top: 50px;
+}*/
+
+/*CheckTime*/
+.header .col {
+  background-color:lightgrey;
+  opacity: 0.8;
+  filter: alpha(opacity=60);  /*For IE8 and earlier*/
+}
+.col {
+  border: solid 1px grey;
+  border-bottom-style: none;
+  border-right-style: none;
+}
+.col:last-child {
+  border-right: solid 1px grey;
+}
+.row:last-child .col {
+  border-bottom: solid 1px grey;
+}

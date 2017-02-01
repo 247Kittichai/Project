@@ -1,0 +1,21 @@
+<ion-view>
+
+  <ion-header-bar>
+      <button class="button button-iocon ion-chevron-left icon>Edit()" ng-click="btnBack()">   กลับ</button>
+      <h1 class="title">กิจกรรม</h1>
+  </ion-header-bar>
+
+  <!-- <ion-content id="ppp">
+    <button class="button buttonSj-At" id="B1" ng-click="btngo()">กิจกรรมรับน้อง</button>
+    <button class="button buttonSj-At" ng-click="btngo()">โครงการปฐมนิเทศนักศึกษา</button>
+    <button class="button buttonSj-At" ng-click="btngo()">โครงการเสริมสร้ามความเป็นครู</button>
+    <button class="button buttonSj-At" ng-click="btngo()">---</button>
+  </ion-content> -->
+
+  <ion-content id="ppp">
+    <div ng-repeat="test in data">
+      <button class="button buttonSj-At" ng-click="info()" >{{test.name}}</button>
+    </div>
+  </ion-content>
+
+</ion-view>
